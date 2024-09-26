@@ -1,0 +1,134 @@
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    position: relative;
+  }
+  
+ 
+  .diamond-container {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    transform: rotate(45deg); 
+  }
+  
+ 
+  .border {
+    position: absolute;
+    background-color: transparent;
+  }
+  
+
+  .border.top {
+    top: 25px;
+    left: 50%;
+    transform: translateX(-65%);
+    width: 50%;
+    height: 20px;
+    background-color: #d07a4b; 
+  }
+  
+  
+  .border.right {
+    top: 44%;
+    right:77px; 
+    transform: translateY(-60%);
+    width: 20px;
+    height: 50%;
+    background-color: #c4bea8; 
+  }
+  
+  
+  .border.bottom {
+    bottom: 85px;
+    left: 50%;
+    transform: translateX(-63%);
+    width: 50%;
+    height: 20px;
+    background-color: #61aaf7; 
+  }
+  
+ 
+  .border.left {
+    top: 50%;
+    left: 32px;
+    transform: translateY(-72%);
+    width: 20px;
+    height: 50%;
+    background-color: #a5d7a4; 
+  }
+  
+
+
+.spanLogo {
+    color: #e67e22;
+}
+
+.firstSmallContainer {
+    height:20px;
+    width:20px;
+    background-color: #986548;
+    transform: rotate(45deg); 
+    position: absolute; 
+    bottom:70%;   
+    left:50%;
+    
+} 
+
+.secondSmallContainer {
+    height:20px;
+    width:20px;
+    background-color: #50afc5;
+    transform: rotate(45deg); 
+    position: absolute; 
+    bottom:53.8%;   
+    left:42.8%;
+}
+
+.thirdSmallContainer {
+    height:20px;
+    width:20px;
+    background-color: #488db6;
+    transform: rotate(45deg); 
+    position: absolute; 
+    bottom:37.5%;   
+    left:50%;
+} 
+
+.fourthSmallContainer {
+    height:20px;
+    width:20px;
+    background-color: #986548;
+    transform: rotate(45deg); 
+    position: absolute; 
+    bottom:53.8%;   
+    left:57%;
+}
+ 
+  .logo-text {
+    position: absolute;
+    top: 42%;
+    left: 46%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    transform: rotate(-2deg);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .logo-text h1 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .logo-text p {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  
+ 
+ 
